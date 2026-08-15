@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <style>
+      @font-face {
+        font-family: 'BounoMonza-Web';
+        src: url('BounoMonza-Web-v23.woff2') format('woff2');
+        font-display: swap;
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .hero {
+        background: #222;
+        color: white;
+        font-size: 2.5rem;
+        padding: 3.75rem 0;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 6rem;
+        margin: 0;
+      }
+
+      .normal{
+        max-width: 56.25rem;
+        margin: 1rem auto;
+        padding: 0 1.25rem;
+        font-size: 1em;
+      }
+
+      .bouno {
+        max-width: 56.25rem;
+        margin: 1rem auto;
+        padding: 0 1.25rem;
+        font-size: 2.5em;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 1rem auto;
+        font-size: 1.5rem;
+      }
+
+      th, td {
+        background: #fc9;
+        border: 1px solid #bbb;
+        padding: 0.5rem 1rem;
+        text-align: center;
+      }
+
+      .tables-wrapper {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      .block {
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+
+      monza {
+        font-family: 'BounoMonza-Web';
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="hero">
+      <h1>
+        bouno語<br>
+        解説・配布サイト（作り途中）
+      </h1>
+
+      <monza><b>
+        bounoinn<br>
+        kaishuo・pe'ibu'u sa'ito
+      </b></monza>
+    </div>
+
+    <div class="normal">
+      <monza>bouno</monza> これがbouno語の文字
+      <div id="toc"></div>
+
+      <monza>
+        <h2 class="bouno">文字一覧</h2>
+        <details>
+          <summary>文字一覧</summary>
+
+          <b>
+            <div class="tables-wrapper">
+
+              <div class="block">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>A</th>
+                    <th>I</th>
+                    <th>U</th>
+                    <th>E</th>
+                    <th>O</th>
+                  </tr>
+
+                  <tr>
+                    <th>結合母音</th>
+                    <td>'a</td>
+                    <td>'i</td>
+                    <td>'u</td>
+                    <td>'e</td>
+                    <td>'o</td>
+                  </tr>
+
+                  <tr>
+                    <th>ゼロ子音</th>
+                    <td>a</td>
+                    <td>i</td>
+                    <td>u</td>
+                    <td>e</td>
+                    <td>o</td>
+                  </tr>
+
+                  <tr>
+                    <th>v子音列</th>
+                    <td>va</td>
+                    <td>vi</td>
+                    <td>vu</td>
+                    <td>ve</td>
+                    <td>vo</td>
+                  </tr>
+
+                  <tr>
+                    <th>k子音列</th>
+                    <td>ka</td>
+                    <td>ki</td>
+                    <td>ku</td>
+                    <td>ke</td>
+                    <td>ko</td>
+                  </tr>
+
+                  <tr>
+                    <th>g子音列</th>
+                    <td>ga</td>
+                    <td>gi</td>
+                    <td>gu</td>
+                    <td>ge</td>
+                    <td>go</td>
+                  </tr>
+
+                  <tr>
+                    <th>s子音列</th>
+                    <td>sa</td>
+                    <td>si</td>
+                    <td>su</td>
+                    <td>se</td>
+                    <td>so</td>
+                  </tr>
+
+                  <tr>
+                    <th>ts子音列</th>
+                    <td>tsa</td>
+                    <td>tsi</td>
+                    <td>tsu</td>
+                    <td>tse</td>
+                    <td>tso</td>
+                  </tr>
+
+                  <tr>
+                    <th>sh子音列</th>
+                    <td>sha</td>
+                    <td>shi</td>
+                    <td>shu</td>
+                    <td>she</td>
+                    <td>sho</td>
+                  </tr>
+
+                  <tr>
+                    <th>z子音列</th>
+                    <td>za</td>
+                    <td>zi</td>
+                    <td>zu</td>
+                    <td>ze</td>
+                    <td>zo</td>
+                  </tr>
+
+                  <tr>
+                    <th>ch子音列</th>
+                    <td>cha</td>
+                    <td>chi</td>
+                    <td>chu</td>
+                    <td>che</td>
+                    <td>cho</td>
+                  </tr>
+
+                  <tr>
+                    <th>j子音列</th>
+                    <td>ja</td>
+                    <td>ji</td>
+                    <td>ju</td>
+                    <td>je</td>
+                    <td>jo</td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="block">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>A</th>
+                    <th>I</th>
+                    <th>U</th>
+                    <th>E</th>
+                    <th>O</th>
+                  </tr>
+
+                  <tr>
+                    <th>t子音列</th>
+                    <td>ta</td>
+                    <td>ti</td>
+                    <td>tu</td>
+                    <td>te</td>
+                    <td>to</td>
+                  </tr>
+
+                  <tr>
+                    <th>d子音列</th>
+                    <td>da</td>
+                    <td>di</td>
+                    <td>du</td>
+                    <td>de</td>
+                    <td>do</td>
+                  </tr>
+
+                  <tr>
+                    <th>dz子音列</th>
+                    <td>dza</td>
+                    <td>dzi</td>
+                    <td>dzu</td>
+                    <td>dze</td>
+                    <td>dzo</td>
+                  </tr>
+
+                  <tr>
+                    <th>n子音列</th>
+                    <td>na</td>
+                    <td>ni</td>
+                    <td>nu</td>
+                    <td>ne</td>
+                    <td>no</td>
+                  </tr>
+
+                  <tr>
+                    <th>h子音列</th>
+                    <td>ha</td>
+                    <td>hi</td>
+                    <td>hu</td>
+                    <td>he</td>
+                    <td>ho</td>
+                  </tr>
+
+                  <tr>
+                    <th>b子音列</th>
+                    <td>ba</td>
+                    <td>bi</td>
+                    <td>bu</td>
+                    <td>be</td>
+                    <td>bo</td>
+                  </tr>
+
+                  <tr>
+                    <th>p子音列</th>
+                    <td>pa</td>
+                    <td>pi</td>
+                    <td>pu</td>
+                    <td>pe</td>
+                    <td>po</td>
+                  </tr>
+
+                  <tr>
+                    <th>f子音列</th>
+                    <td>fa</td>
+                    <td>fi</td>
+                    <td>fu</td>
+                    <td>fe</td>
+                    <td>fo</td>
+                  </tr>
+
+                  <tr>
+                    <th>m子音列</th>
+                    <td>ma</td>
+                    <td>mi</td>
+                    <td>mu</td>
+                    <td>me</td>
+                    <td>mo</td>
+                  </tr>
+
+                  <tr>
+                    <th>y子音列</th>
+                    <td>ya</td>
+                    <td>yi</td>
+                    <td>yu</td>
+                    <td>ye</td>
+                    <td>yo</td>
+                  </tr>
+
+                  <tr>
+                    <th>r子音列</th>
+                    <td>ra</td>
+                    <td>ri</td>
+                    <td>ru</td>
+                    <td>re</td>
+                    <td>ro</td>
+                  </tr>
+
+                  <tr>
+                    <th>w子音列</th>
+                    <td>wa</td>
+                    <td>wi</td>
+                    <td>wu</td>
+                    <td>we</td>
+                    <td>wo</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+
+            <table>
+              <tr>
+                <th>撥音(ん)</th>
+                <th>促音(っ)</th>
+                <th>長音(ー)</th>
+                <th>古代 p͡t</th>
+                <th>古代 p͡d</th>
+              </tr>
+
+              <tr>
+                <td>nn</td>
+                <td>^</td>
+                <td>-</td>
+                <td>pt</td>
+                <td>pd</td>
+              </tr>
+            </table>
+          </b>
+
+        </details>
+      </monza>
+
+      <h2 class="bouno">bouno語の音韻</h2>
+
+      <p>bouno語の音韻は、「母音5個と22個の子音系列」、「結合母音」、「撥音・促音・長音の拍音」から構成される。</p>
+
+      <details>
+        <summary>音韻</summary>
+
+        <h3>母音</h3>
+
+        <p>母音パーツはこの5個である。</p>
+        <monza>
+          <b>
+            <table>
+              <tr>
+                <th>A</th>
+                <th>I</th>
+                <th>U</th>
+                <th>E</th>
+                <th>O</th>
+              </tr>
+
+              <tr>
+                <td>'a</td>
+                <td>'i</td>
+                <td>'u</td>
+                <td>'e</td>
+                <td>'o</td>
+              </tr>
+            </table>
+          </b>
+        </monza>
+        <p>子音パーツを付けずそのまま使うと<b>結合母音</b>になる。結合母音は1つ前の母音から滑らかに繋げて発音する。</p>
+
+        <h3>子音</h3>
+
+        <p>
+          子音は音声的な特徴によって10個（古代文字も合わせれば11個）のグループに分けられている。bouno語の文字は、この音のグループを元に共通の字形パーツを持つように設計されている。<br>
+          そのため、同じ系列の子音は似た形をしており、系列ごとの派生は音のまとまりを視覚的に表したものである。
+        </p>
+        <monza>
+          <p>子音パーツはこの22個で（古代文字も合わせれば24個）ある。古代文字以外の子音単体のグリフ（画像）は用意していないのでそれらは母音'aを入れて表示する。</p>
+          <b>
+            <div class="tables-wrapper">
+
+              <div class="block">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>ゼロ子音</th>
+                  </tr>
+
+                  <tr>
+                    <th>ゼロ子音</th>
+                    <td>a</td>
+                  </tr>
+
+                  <tr>
+                    <th>v</th>
+                    <td>va</td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>k</th>
+                  </tr>
+
+                  <tr>
+                    <th>k</th>
+                    <td>ka</td>
+                  </tr>
+
+                  <tr>
+                    <th>g</th>
+                    <td>ga</td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>s</th>
+                  </tr>
+
+                  <tr>
+                    <th>s</th>
+                    <td>sa</td>
+                  </tr>
+
+                  <tr>
+                    <th>ts</th>
+                    <td>tsa</td>
+                  </tr>
+
+                  <tr>
+                    <th>sh</th>
+                    <td>sha</td>
+                  </tr>
+
+                  <tr>
+                    <th>z</th>
+                    <td>za</td>
+                  </tr>
+
+                  <tr>
+                    <th>ch</th>
+                    <td>cha</td>
+                  </tr>
+
+                  <tr>
+                    <th>j</th>
+                    <td>ja</td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="block">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>t</th>
+                  </tr>
+
+                  <tr>
+                    <th>t</th>
+                    <td>ta</td>
+                  </tr>
+
+                  <tr>
+                    <th>d</th>
+                    <td>da</td>
+                  </tr>
+
+                  <tr>
+                    <th>dz</th>
+                    <td>dza</td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>n</th>
+                  </tr>
+
+                  <tr>
+                    <th>n</th>
+                    <td>na</td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>h</th>
+                  </tr>
+
+                  <tr>
+                    <th>h</th>
+                    <td>ha</td>
+                  </tr>
+
+                  <tr>
+                    <th>b</th>
+                    <td>ba</td>
+                  </tr>
+
+                  <tr>
+                    <th>p</th>
+                    <td>pa</td>
+                  </tr>
+
+                  <tr>
+                    <th>f</th>
+                    <td>fa</td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="block">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>m</th>
+                  </tr>
+
+                  <tr>
+                    <th>m</th>
+                    <td>ma</td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>y</th>
+                  </tr>
+
+                  <tr>
+                    <th>y</th>
+                    <td>ya</td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>r</th>
+                  </tr>
+
+                  <tr>
+                    <th>r</th>
+                    <td>ra</td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>w</th>
+                  </tr>
+
+                  <tr>
+                    <th>w</th>
+                    <td>wa</td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <th>古代</th>
+                    <th>p͡t</th>
+                  </tr>
+
+                  <tr>
+                    <th>p͡t</th>
+                    <td>pt</td>
+                  </tr>
+
+                  <tr>
+                    <th>p͡d</th>
+                    <td>pd</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </b>
+        </monza>
+        <p>p͡tグループだけは子音単体で1文字。母音を入れるときは後ろに結合母音を付ける。<small>使うときはないけど。</small></p>
+        <s>
+          [h, b, p, f]がhグループとか日本語に影響されすぎでは？<br>
+          p͡dとか無声音と有声音が重なってるけどどうやって発音するんですかね？
+        </s>
+
+        <h3>拍音</h3>
+
+        <p>拍音文字はこの3個である。</p>
+        <monza>
+          <b>
+            <table>
+              <tr>
+                <th>撥音(ん)</th>
+                <th>促音(っ)</th>
+                <th>長音(ー)</th>
+              </tr>
+
+              <tr>
+                <td>nn</td>
+                <td>^</td>
+                <td>-</td>
+              </tr>
+            </table>
+          </b>
+        撥音(ん)がnnで長音(ー)が-とか逆張りかよ。<s>あとこれらがあるとかやっぱり日本語に引っ張られすぎでは？</s>
+        </monza>
+
+      </details>
+
+      <h2 class="bouno">ローマ字表記</h2>
+
+      <details>
+        <summary>例</summary>
+
+        子音パーツと母音パーツをくっつける基本文字は普通に子音と母音をそのまま書くだけ。<br>
+        <div class="bouno" style="margin: 2rem 0;"><b>例: <monza>ka</monza> = ka, <monza>shu</monza> = shu</b></div><br>
+        結合母音は母音の前に「'」を付ける。<br>
+        <div class="bouno" style="margin: 2rem 0;"><b>例: <monza>sa'e</monza> = sa'e, <monza>ri'u</monza> = ri'u</b></div><br>
+        撥音(ん)、促音(っ)、長音(ー)はそれぞれ「n」, 「^」, 「-」になる。<br>
+        <div class="bouno" style="margin: 2rem 0;"><b>例: <monza>inn</monza> = in, <monza>i^pa</monza> = i^pa, <monza>mi-</monza> = mi-</b></div><br>
+        撥音(ん)のすぐ後にゼロ子音が来る場合も母音の前に「'」を付ける。(そうしなければ na が <monza>na か nna</monza> か見分けられないから) (ちなみに拍音のすぐ後に結合母音が来ることは無いからそれで見分けられなくなる心配は無い)<br>
+        <div class="bouno" style="margin: 2rem 0;"><b>例: <monza>funniki</monza> = fun'iki, <monza>kannami</monza> = kan'ami</b></div>
+
+      </details>
+
+      <h2 class="bouno">語彙リスト</h2>
+
+      <details>
+
+        <summary><h3>人称代名詞</h3></summary>
+
+        <p><monza>to</monza> (to) … 私</p>
+        <p><monza>ti</monza> (ti) … あなた</p>
+        <p><monza>eto</monza> (eto) … it</p>
+        <p><monza>seheinn</monza> (sehein) … he</p>
+        <p><monza>semeinn</monza> (semein) … she</p>
+
+      </details>
+      <details>
+
+        <summary><h3>指示語</h3></summary>
+
+        <p><monza>kere</monza> (kere) … これ</p>
+        <p><monza>sere</monza> (sere) … あれ、それ</p>
+        <p><monza>dere</monza> (dere) … どれ</p>
+        <p><monza>kereto</monza> (kereto) … この | 略 … <monza>ke</monza> (ke)</p>
+        <p><monza>sereto</monza> (sereto) … あの、その | 略 … <monza>se</monza> (se)</p>
+        <p><monza>dereto</monza> (dereto) … どの | 略 … <monza>de</monza> (de)</p>
+
+      </details>
+
+    </div>
+
+    <script>
+
+      // <h2>を見つけて目次を作る
+      document.addEventListener("DOMContentLoaded", () => {
+        const toc = document.getElementById("toc");
+        const headers = document.querySelectorAll("h2.bouno");
+
+        let html = "<h2>目次</h2><ul>";
+
+        headers.forEach((h, i) => {
+          const id = "section-" + i;
+          h.id = id;
+          html += `<li><a href="#${id}">${h.textContent}</a></li>`;
+        });
+
+        html += "</ul>";
+        toc.innerHTML = html;
+      });
+
+      // ローマ字/bouno monza の変換表を作る
+      const consonants = [
+        "'", "", "v", "k", "g", "s", "ts", "sh", "z", "ch", "j",
+        "t", "d", "dz", "n", "h", "b", "p", "f", "m", "y", "r", "w"
+      ];
+
+      const vowels = ["a", "i", "u", "e", "o"];
+
+      let map = {};
+
+      map["nn"] = String.fromCodePoint(0xE073);
+      map["^"]  = String.fromCodePoint(0xE074);
+      map["-"]  = String.fromCodePoint(0xE075);
+      map["pt"] = String.fromCodePoint(0xE076);
+      map["pd"] = String.fromCodePoint(0xE077);
+
+      let code = 0xE000;
+
+      for (const c of consonants) {
+        for (const v of vowels) {
+          map[c + v] = String.fromCodePoint(code++)
+        }
+      }
+
+      // 部分一致でバグるのを避けるためにkeysを長い順にsortする
+      const keys = Object.keys(map).sort((a, b) => b.length - a.length);
+
+      // 変換前にhtmlタグを逃がす
+      function escapeTags(text) {
+        const tags = [];
+        const escaped = text.replace(/<[^>]+>/g, m => {
+          tags.push(m);
+          return `__TAG${tags.length - 1}__`;
+        });
+        return { escaped, tags };
+      }
+
+      // ローマ字から bouno monza への変換
+      function convert(text) {
+        for (const k of keys) text = text.replaceAll(k, map[k]);
+        return text;
+      }
+
+      // 逃がしたタグを戻す
+      function restoreTags(text, tags) {
+        return text.replace(/__TAG(\d+)__/g, (_, n) => tags[n]);
+      }
+
+      // 変換の流れを一塊にする
+      function convertWithTags(text) {
+        const { escaped, tags } = escapeTags(text);
+        const converted = convert(escaped);
+        return restoreTags(converted, tags);
+      }
+
+      // 変換を実行
+      document.querySelectorAll("monza").forEach(el => {
+        el.innerHTML = convertWithTags(el.innerHTML);
+      });
+
+    </script>
+
+  </body>
+</html>
